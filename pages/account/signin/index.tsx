@@ -11,14 +11,14 @@ import AccountForms from "../../../components/Account/AccountForms";
 const Login: NextPage = () => {
   return (
     <>
-      <AccountLayout title="Sign In">
+      <AccountLayout title="Sign Up">
         <AccountBackgroundImage />
 
         <AccountBodyWrapper>
-          <AccountHeaderTitle title="Sign In To " />
+          <AccountHeaderTitle title="Sign Up To " />
 
           <AccountMainWrapper>
-            <AccountForms title="Sign In" />
+            <AccountForms title="Sign" />
 
             <AccountBottom
               title="Sign Up"
